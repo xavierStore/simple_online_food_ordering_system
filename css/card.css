@@ -1,0 +1,74 @@
+.card {
+	.card-title {
+		&.hidden {
+			text-indent:-9999px;
+		}
+	}
+	.card-image {		
+		.card-badge {
+			position: absolute;
+			bottom: 0px;
+			width: 100%;
+			text-align: left;
+			text-transform: uppercase;
+			font-size: 0.9em;
+			padding: 0.2em 24px 0.8em 24px;
+			color: #fff;
+			z-index: 2;
+			.material-icons {
+				position:relative;
+				margin-right: 8px;
+				top: 7px;
+			}
+			+ .card-title {
+				padding-bottom:66px;
+			}
+		}
+	}
+	&.horizontal {
+		.card-image {
+			.card-badge {
+				text-align: center;
+				padding: 0.2em 0;
+				.material-icons {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// FIXES FOR MATERIALIZE
+.card-action {white-space: nowrap;}
